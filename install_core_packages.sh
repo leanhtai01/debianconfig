@@ -12,7 +12,7 @@ apt update && apt full-upgrade -y
 $install_command fonts-hack
 
 # tools
-$install_command lm-sensors
+$install_command lm-sensors keepassxc
 
 # programming
 $install_command llvm clang npm build-essential git
