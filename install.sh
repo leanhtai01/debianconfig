@@ -8,3 +8,4 @@ $current_dir/configure_repositories.sh
 $current_dir/enable_multi_arch.sh
 $current_dir/install_drivers.sh
 $current_dir/install_core_packages.sh
+$current_dir/install_tlp.sh
