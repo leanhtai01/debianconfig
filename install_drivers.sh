@@ -2,4 +2,12 @@
 
 set -e
 
-apt update -y && apt full-upgrade -y && apt install -y firmware-iwlwifi intel-microcode firmware-realtek firmware-misc-nonfree
+install_command="apt install -y"
+
+# update system
+apt update && apt full-upgrade -y
+
+$install_command firmware-iwlwifi intel-microcode firmware-realtek firmware-misc-nonfree
+
+# ensure Vulkan and 32-bit support
+$install_command mesa-vulkan-drivers libglx-mesa0:i386 mesa-vulkan-drivers:i386 libgl1-mesa-dri:i386
