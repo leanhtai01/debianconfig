@@ -15,7 +15,7 @@ $install_command fonts-hack
 $install_command lm-sensors
 
 # programming
-$install_command llvm clang npm build-essential
+$install_command llvm clang npm build-essential git
 
 # editor
 $install_command_backports emacs dictionaries-common
