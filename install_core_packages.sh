@@ -2,8 +2,11 @@
 
 set -e
 
-install_command="apt update -y && apt full-upgrade -y && apt install -y"
-install_command_backports="apt update -y && apt full-upgrade -y && apt install -y -t buster-backports"
+install_command="apt install -y"
+install_command_backports="apt install -y -t buster-backports"
+
+# update system
+apt update && apt full-upgrade -y
 
 # fonts
 $install_command fonts-hack
