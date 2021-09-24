@@ -83,3 +83,11 @@ $install_command phpmyadmin
 # enable userdir
 sudo a2enmod userdir
 mkdir -p /home/$(whoami)/public_html
+
+# running PHP script in user dir
+begin=$(sed -n '/^<IfModule mod_userdir.c>/=' /etc/apache2/mods-available/php7.4.conf)
+end=$(sed -n '/^<\/IfModule>/=' /etc/apache2/mods-available/php7.4.conf)
+sudo sed -i "${begin},${end} s/^/#/" /etc/apache2/mods-available/php7.4.conf
+
+# restart Apache
+sudo systemctl restart apache2
