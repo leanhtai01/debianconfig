@@ -14,4 +14,5 @@ printf "deb https://fasttrack.debian.net/debian-fasttrack/ bullseye-fasttrack ma
 printf "deb https://fasttrack.debian.net/debian-fasttrack/ bullseye-backports-staging main contrib\n" | sudo tee -a /etc/apt/sources.list
 
 # install virtualbox
+sudo apt update && sudo apt full-upgrade
 $install_command virtualbox virtualbox-ext-pack
