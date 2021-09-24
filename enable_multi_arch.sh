@@ -2,5 +2,5 @@
 
 set -e
 
-dpkg --add-architecture i386
-apt update && apt full-upgrade -y
+sudo dpkg --add-architecture i386
+sudo apt update && sudo apt full-upgrade -y

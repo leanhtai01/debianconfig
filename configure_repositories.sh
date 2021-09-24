@@ -4,5 +4,5 @@ set -e
 
 current_dir=$(dirname $0)
 
-cp $current_dir/data/sources.list /etc/apt/sources.list
-apt update -y && apt full-upgrade -y
+sudo cp $current_dir/data/sources.list /etc/apt/sources.list
+sudo apt update -y && sudo apt full-upgrade -y

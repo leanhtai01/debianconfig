@@ -2,10 +2,10 @@
 
 set -e
 
-install_command="apt install -y"
+install_command="sudo apt install -y"
 
 # update system
-apt update && apt full-upgrade -y
+sudo apt update && sudo apt full-upgrade -y
 
 $install_command firmware-iwlwifi intel-microcode firmware-realtek firmware-misc-nonfree
 
