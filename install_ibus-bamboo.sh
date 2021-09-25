@@ -15,3 +15,7 @@ echo 'deb http://download.opensuse.org/repositories/home:/lamlng/Debian_10/ /' |
 curl -fsSL https://download.opensuse.org/repositories/home:lamlng/Debian_10/Release.key | gpg --dearmor | sudo tee /etc/apt/trusted.gpg.d/home_lamlng.gpg > /dev/null
 sudo apt update
 $install_command ibus-bamboo
+
+ibus restart
+gsettings set org.gnome.desktop.input-sources sources "[('xkb', 'us'), ('ibus', 'Bamboo')]"
+gsettings set org.gnome.desktop.interface gtk-im-module "'ibus'"
