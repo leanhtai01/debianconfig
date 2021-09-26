@@ -21,3 +21,4 @@ $current_dir/install_flatpak.sh
 $current_dir/install_ibus-bamboo.sh
 $current_dir/configure_git.sh
 $current_dir/configure_editor.sh $username
+printf "All thing done successfully!\n"
