@@ -22,4 +22,4 @@ sudo apt update
 $install_command virtualbox virtualbox-ext-pack
 
 # add user to vboxusers
-adduser $username vboxusers
+sudo adduser $username vboxusers
