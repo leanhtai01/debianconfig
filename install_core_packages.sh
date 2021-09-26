@@ -15,7 +15,7 @@ $install_command fonts-hack
 $install_command lm-sensors keepassxc apt-transport-https curl expect wget krusader fish vim-gtk
 
 # programming
-$install_command llvm clang npm build-essential git
+$install_command llvm clang npm build-essential git kdiff3
 
 # editor
 $install_command emacs dictionaries-common
