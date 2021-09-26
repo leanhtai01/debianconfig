@@ -44,9 +44,9 @@ gsettings set $SCHEMATOITEM:${PATHTOCUSTOMKEY}5/ binding "'<Primary><Alt>r'"
 gsettings set $SCHEMATOITEM:${PATHTOCUSTOMKEY}5/ command "'gnome-terminal -e fish'"
 
 # open Firefox Developer Edition
-gsettings set $SCHEMATOITEM:${PATHTOCUSTOMKEY}6/ name "'Firefox Developer Edition'"
+gsettings set $SCHEMATOITEM:${PATHTOCUSTOMKEY}6/ name "'Firefox'"
 gsettings set $SCHEMATOITEM:${PATHTOCUSTOMKEY}6/ binding "'<Primary><Alt>f'"
-gsettings set $SCHEMATOITEM:${PATHTOCUSTOMKEY}6/ command "'firefox-developer-edition'"
+gsettings set $SCHEMATOITEM:${PATHTOCUSTOMKEY}6/ command "'firefox'"
 
 # open GVim
 gsettings set $SCHEMATOITEM:${PATHTOCUSTOMKEY}7/ name "'GVim'"
