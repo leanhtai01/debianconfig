@@ -22,4 +22,7 @@ $current_dir/install_flatpak_apps.sh
 $current_dir/install_ibus-bamboo.sh
 $current_dir/configure_git.sh
 $current_dir/configure_editor.sh $username
+$current_dir/install_google-chrome.sh
+$current_dir/configure_gnome.sh
+$current_dir/make_shortcuts_gnome.sh
 printf "All thing done successfully!\n"
