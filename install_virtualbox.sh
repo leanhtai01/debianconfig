@@ -4,6 +4,7 @@ set -e
 
 install_command="sudo apt install -y"
 install_command_backports="sudo apt install -y -t bullseye-backports"
+username=$1
 
 # update system
 sudo apt update && sudo apt full-upgrade -y
@@ -19,3 +20,6 @@ printf "deb https://fasttrack.debian.net/debian-fasttrack/ bullseye-backports-st
 # install virtualbox
 sudo apt update
 $install_command virtualbox virtualbox-ext-pack
+
+# add user to vboxusers
+adduser $username vboxusers

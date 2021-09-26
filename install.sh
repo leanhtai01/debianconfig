@@ -16,7 +16,7 @@ $current_dir/install_gh.sh
 $current_dir/install_sublime_tools.sh
 $current_dir/install_LAMP.sh
 $current_dir/install_vscode.sh
-$current_dir/install_virtualbox.sh
+$current_dir/install_virtualbox.sh $username
 $current_dir/install_flatpak.sh
 $current_dir/install_ibus-bamboo.sh
 $current_dir/configure_git.sh
