@@ -8,6 +8,9 @@ install_command_backports="sudo apt install -y -t bullseye-backports"
 # updating system
 sudo apt update && sudo apt full-upgrade
 
+# install dependencies
+$install_command expect
+
 # install Apache
 $install_command apache2
 

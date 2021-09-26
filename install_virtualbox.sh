@@ -9,6 +9,9 @@ username=$1
 # update system
 sudo apt update && sudo apt full-upgrade -y
 
+# install dependencies
+$install_command apt-transport-https
+
 # import fasttrack archive keyring
 $install_command fasttrack-archive-keyring
 
