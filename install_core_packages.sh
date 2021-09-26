@@ -12,7 +12,7 @@ sudo apt update && sudo apt full-upgrade -y
 $install_command fonts-hack
 
 # tools
-$install_command lm-sensors keepassxc
+$install_command lm-sensors keepassxc apt-transport-https curl expect wget
 
 # programming
 $install_command llvm clang npm build-essential git
