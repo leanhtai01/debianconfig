@@ -6,6 +6,7 @@ current_dir=$(dirname $0)
 username=
 
 . $current_dir/set_install_info.sh
+. $current_dir/get_user_info.sh
 $current_dir/configure_repositories.sh
 $current_dir/enable_multi_arch.sh
 $current_dir/install_drivers.sh
