@@ -18,3 +18,4 @@ $current_dir/install_vscode.sh
 $current_dir/install_virtualbox.sh
 $current_dir/install_flatpak.sh
 $current_dir/install_ibus-bamboo.sh
+$current_dir/configure_editor.sh $username
