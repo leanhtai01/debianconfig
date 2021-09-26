@@ -18,6 +18,7 @@ $current_dir/install_LAMP.sh
 $current_dir/install_vscode.sh
 $current_dir/install_virtualbox.sh $username
 $current_dir/install_flatpak.sh
+$current_dir/install_flatpak_apps.sh
 $current_dir/install_ibus-bamboo.sh
 $current_dir/configure_git.sh
 $current_dir/configure_editor.sh $username
