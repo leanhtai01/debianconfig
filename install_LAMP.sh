@@ -14,7 +14,7 @@ $install_command apache2
 ###################
 # install MariaDB #
 ###################
-$install_command mariadb-server expect
+$install_command mariadb-server
 
 mysqlroot_pass1=123
 mysqlroot_pass2=123
